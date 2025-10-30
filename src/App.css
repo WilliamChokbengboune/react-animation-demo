@@ -22,7 +22,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 2rem 0;
 }
+.games {
+  display: flex;
+  gap: 3rem; /* space between dice and deck */
+  justify-content: center;
+  align-items: flex-start;
+}
+
 
 .App-link {
   color: #61dafb;
